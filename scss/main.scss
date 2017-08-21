@@ -1,0 +1,35 @@
+//GENERALS --------------------------------------------------------------
+
+@import "partials/header";
+@import "partials/body";
+@import "partials/footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// html {
+//   // height: 100%;
+//   width: 100%;
+// }
+body {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  font-family: 'Alef', sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: #17264f;
+
+}
+
+.container {
+  width: 100%;
+  // height: 100%;
+  // margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
